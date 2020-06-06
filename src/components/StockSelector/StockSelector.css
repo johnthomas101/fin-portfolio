@@ -1,0 +1,38 @@
+.tickerMainContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.tickerHeader {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 25px;
+}
+
+.tickerContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.tickerItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tickerItemSymbol{
+    padding: 10px;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+.tickerItemSymbol:hover{
+    color: white;
+    background-color: #333;
+}
+
+
+.tickerItemText{
+
+}
+
+
